@@ -46,8 +46,8 @@ import { Screen3Component } from './components/screen3/screen3.component';
     Screen1Component,
     Screen2Component,
     Screen3Component,
-    DialogWrapperComponent
+    DialogWrapperComponent,
   ],
-  providers: [MatIconRegistry]
+  providers: [MatIconRegistry],
 })
 export class DialogModule {}
