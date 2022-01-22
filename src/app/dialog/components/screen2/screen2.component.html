@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>Screen #2: Animals</h1>
+
+<mat-dialog-content>
+  <p>What's your favorite animal?</p>
+  <mat-form-field>
+    <mat-label>Favorite Animal</mat-label>
+    <input matInput>
+  </mat-form-field>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button color="primary" (click)="goToScreen(1)">Back</button>
+  <button mat-raised-button color="primary" (click)="goToScreen(3)" >Next</button>
+</mat-dialog-actions>

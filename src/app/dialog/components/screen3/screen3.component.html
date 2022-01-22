@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Screen #3: Closing Arguments</h1>
+
+<mat-dialog-content>
+  <p>This is the third and final screen. From here you can go back to the previous one, but also to the landing page.</p>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end">
+  <button mat-button color="primary" (click)="goToScreen2()">Back</button>
+  <button mat-raised-button color="primary" (click)="backToStart()" mat-dialog-close>Done!</button>
+</mat-dialog-actions>
